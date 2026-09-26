@@ -8,6 +8,12 @@
 
 [**Parte 2	4**](#parte-2)
 
+[Identificación de paradigmas de programación:	4](#identificación-de-paradigmas-de-programación:)
+
+[**Parte 3	5**](#parte-3)
+
+[Actividad individual	5](#actividad-individual)
+
 # **Parte 1** {#parte-1}
 
 ## *Conceptos básicos* {#conceptos-básicos}
@@ -61,40 +67,51 @@ Fortran: Medio nivel. Trabaja con algunas abstracciones como también lenguaje c
 
 # **Parte 2** {#parte-2}
 
-## *Identificación de paradigmas de programación:*
+## *Identificación de paradigmas de programación:* {#identificación-de-paradigmas-de-programación:}
 
-A continuación, se te ofrecen descripciones de fragmentos de código. Tu tarea es identificar si cada uno corresponde a un paradigma imperativo o declarativo y justificar tu respuesta.
-
-* **Fragmento 1 (Descripción):**
+**Fragmento 1 (Descripción):**
 
 Un programa recorre una lista de números sumándolos uno por uno hasta obtener el total. Pista: Se describe cómo se realiza la suma paso a paso.
 
-Imperativo.
+Imperativo. Porque describe cada acción paso a paso hasta el final sin saltarse ningún detalle.
 
-* **Fragmento 2 (Descripción):**
+**Fragmento 2 (Descripción):**
 
 Una consulta a una base de datos busca empleados mayores de 30 años y devuelve solo sus nombres. Pista: Se especifica qué resultado se quiere obtener sin detallar cómo se procesa internamente.
 
-Declarativo.
+Declarativo. Ya que carece de instrucciones, sólo se explica el resultado final.
 
-* **Fragmento 3 (Descripción):**
+**Fragmento 3 (Descripción):**
 
 Un programa que calcula el factorial de un número n definiendo que el factorial de 0 es 1 y, para números mayores, multiplicando el número por el factorial del número anterior. Pista: La lógica se define recursivamente sin especificar los pasos detallados.
 
-Declarativo
+Declarativo. El programa no describe el paso a paso de su cálculo, sino que directamente pasa a defender la solución cuestionada.
 
-* Fragmento 4 (Descripción):
+**Fragmento 4 (Descripción):**
 
 Un programa filtra productos con precios superiores a 10 dólares recorriendo una lista y comprobando cada producto uno por uno. Pista: Se describen detalladamente los pasos del proceso.
 
-Imperativo.
+Imperativo. Porque el programa recorre la lista detalladamente en órden para comprobarlo, no salta directamente a la solución de la consulta.
 
-## Actividad en grupo:
+# **Parte 3** {#parte-3}
 
-En equipos de 2-3 personas, seleccionen una actividad cotidiana (preparar una receta, organizar un evento, etc.) y describan la tarea de dos maneras:
+## Actividad individual {#actividad-individual}
 
-* Imperativa: Indicando cada uno de los pasos detallados.  
-* Declarativa: Describiendo únicamente el resultado final que quieren lograr.
+Seleccionen una actividad cotidiana (preparar una receta, organizar un evento, etc.) y describan la tarea de dos maneras:
+
+- Imperativa: Indicando cada uno de los pasos detallados.  
+- Declarativa: Describiendo únicamente el resultado final que quieren lograr.
 
   Comparen las dos descripciones y discutan las ventajas y desventajas de cada enfoque. Incluyan esta comparación en el informe.
 
+Actividad cotidiana seleccionada:
+
+- Declarativa:  
+  \-  Ir a la estación de tren (en taxi): Llévame a la estación de tren.  
+    
+- Imperativa:  
+  \-  Ir a la estación de tren (por tus propios medios): Suba al coche, arranque, asegúrese de que todo está correcto y comience a conducir. Después de 300 metros gire a la izquierda y tome la primera salida manteniéndose en el carril derecho, continúe por el carril central 1 kilómetro para después tomar la salida X en dirección a la estación, etc.
+
+
+La forma declarativa resulta sencilla de entender y no ocupa mucho espacio, sin embargo se pierde el control de los pasos a realizar para obtener dicha solución.   
+Por otro lado la forma imperativa puede resultar exhaustiva de desarrollar por la necesidad de describir todos los pasos con sus detalles, un paso erróneo no funciona y se tiene que volver hacia atrás para asegurar un resultado óptimo. Sin embargo, el usuario tiene el control completo de la tarea desde principio a fin, decide por qué pasa algo y cuando.  
