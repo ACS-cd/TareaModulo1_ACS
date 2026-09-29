@@ -1,9 +1,6 @@
-Este repositorio pretende alojar los ejercicios y tareas desarrolladas en Entornos de desarrollo durante el curso 2026-27.
+Este repositorio contiene la actividad correspondiente a Entornos de desarrollo: Tarea del Módulo 1 - Reconocimiento de Elementos en el Desarrollo de un Programa Informático.
 
-Actualmente contiene (ordenado por cronología de más antiguo a nuevo):
-
-Tarea del Módulo 1 - Reconocimiento de Elementos en el Desarrollo de un Programa Informático.
-
+El objetivo es evaluar la capacidad de los alumnos para reconocer los elementos y herramientas que intervienen en el desarrollo de un programa informático, diferenciando los conceptos de código fuente, objeto y ejecutable, así como clasificar los lenguajes de programación mediante el desarrollo de un documento PDF explicativo.
 
 Palabra del día: Compañero
 
